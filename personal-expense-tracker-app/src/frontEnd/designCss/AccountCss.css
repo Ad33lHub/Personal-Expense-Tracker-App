@@ -1,0 +1,159 @@
+ .main-content {
+     flex: 1;
+     padding: 2rem;
+     overflow-y: auto;
+ }
+
+ .Account-Section {
+
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+
+.Account-Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+ .new-btn {
+     display: flex;
+     align-items: center;
+     border: 1px solid #ddd;
+     border-radius: 6px;
+     background-color: #fff;
+     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+     padding: 8px 16px;
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+     cursor: pointer;
+     transition: all 0.2s ease;
+ }
+
+
+
+ 
+
+ .new-btn .icon {
+     font-weight: bold;
+     margin-right: 10px;
+     color: #333;
+     font-size: 18px;
+ }
+
+ .new-btn .text {
+     color: #333;
+ }
+ .new-btn:hover {
+     background-color: #f5f5f5;
+     border-color: #ccc;
+ }
+
+
+/* Main account list container */
+.Account-List {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+}
+
+/* Main account rows (Cash, Asset, etc.) */
+.account-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-top: 1px solid #eee;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.account-row:hover {
+  background-color: #f1f1f1;
+}
+
+/* Account name and amount */
+.account-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.account-amount {
+  font-weight: 600;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+/* Expanded section (wallets) */
+.sub-items {
+  background-color: #fff;
+  padding: 10px 16px;
+  border-top: 1px solid #eee;
+}
+
+/* Each wallet row */
+.sub-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+/* Wallet name styling */
+.wallet-name {
+  font-weight: 500;
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* Right side balances */
+.wallet-balances {
+  text-align: right;
+  flex: 1;
+  margin-left: 20px;
+}
+
+.wallet-balances .amount {
+  font-size: 14px;
+  line-height: 1.4;
+  color: green;
+}
+
+/* Edit button */
+.edit-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #555;
+  transition: color 0.2s;
+}
+
+.edit-btn:hover {
+  color: #000;
+}
+
+
+
+
+
+
+
